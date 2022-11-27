@@ -10,6 +10,7 @@ specifiers:
   '@typechain/hardhat': ^6.1.2
   '@types/mocha': ^9.1.0
   chai: ^4.3.7
+  dotenv: ^16.0.3
   ethers: ^5.7.2
   hardhat: ^2.12.2
   hardhat-gas-reporter: ^1.0.8
@@ -18,6 +19,7 @@ specifiers:
   typechain: ^8.1.0
 
 dependencies:
+  dotenv: 16.0.3
   hardhat: 2.12.2_ts-node@10.9.1
 
 devDependencies:
@@ -1677,6 +1679,11 @@ packages:
     dependencies:
       path-type: 4.0.0
     dev: true
+
+  /dotenv/16.0.3:
+    resolution: {integrity: sha512-7GO6HghkA5fYG9TYnNxi14/7K9f5occMlp3zXAuSxn7CKCxt9xbNWG7yF8hTCSUchlfWSe3uLmlPfigevRItzQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /ecc-jsbn/0.1.2:
     resolution: {integrity: sha512-eh9O+hwRHNbG4BLTjEl3nw044CkGm5X6LoaCf7LPp7UU8Qrt47JYNi6nPX8xjW97TKGKm1ouctg0QSpZe9qrnw==}
